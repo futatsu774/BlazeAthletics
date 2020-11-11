@@ -1,0 +1,15 @@
+.body-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .img-thumbnail {
+  	height: 500px;
+  }
+  .content-aboutUs {
+  	padding-top: 200px
+  }
+  h1 {
+  	text-align: center;
+  	padding-bottom: 10px;
+  }

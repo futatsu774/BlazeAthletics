@@ -1,0 +1,28 @@
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+
+
+.home-body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.carousel-indicators li { 
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.carousel-indicators .active {
+  border: 1px solid #ff3535;
+  background-color: #ff3535;
+}

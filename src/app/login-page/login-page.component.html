@@ -1,1 +1,31 @@
-<p>login-page works!</p>
+<div class="row signup-container">
+    <div class="col-sm-6 container-fluid ">	
+        <form action="/action_page.php">
+
+            <div class="form-group form-margin col-sm-12">
+                <label for="fname">Fist Name:</label>
+                <input type="text" class="form-control" id="fname">
+            </div>
+
+            <div class="form-group col-sm-12">
+                <label for="fname">Fist Name:</label>
+                <input type="text" class="form-control" id="fname">
+            </div>
+
+            <div class="col-sm-12">
+                <button type="submit" class="btn  btn-login btn-default ">Submit</button>
+                <button type="submit" class="btn  btn-login btn-default">Submit</button>
+            </div>
+
+            <div class="col-sm-12 noaccount">
+                <a (click)="onSignUp()" style="cursor: pointer;"> Don't have an account? </a>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="col-sm-6"> 
+        <img src="assets/sample.jpg" style="width:60%">
+    </div>
+
+</div>    
