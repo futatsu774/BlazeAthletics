@@ -1,0 +1,36 @@
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+ }
+ 
+  .home-body {
+     margin-left: 20%;
+     margin-right: 20%;
+   }
+ 
+  .bottom-buttons {
+  margin-top: 25%;
+   margin-left: 20%;
+  }
+ 
+  .float-right {
+      float: right;
+  }
+ 
+  .resize-img{
+      width: 150px;
+  }
+ 
+  .adjust-margin {
+  padding-left: 0px;
+  float: left;
+  }
+  .bottombtn {
+      margin-right: 10%;
+  }
+ 
+  .btnblack {
+      color: white;
+      background-color: black;
+  }

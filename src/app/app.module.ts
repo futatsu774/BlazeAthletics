@@ -11,6 +11,11 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ProductsPageComponent } from './products-page/products-page.component';
 import { SignupPageComponent } from './signup-page/signup-page.component';
 import { FaqPageComponent } from './faq-page/faq-page.component';
+import { UserAccountPageComponent } from './user-account-page/user-account-page.component';
+import { UserCartPageComponent } from './user-cart-page/user-cart-page.component';
+import { ProductsListComponent } from './products-page/products-list/products-list.component';
+import { ProductsDetailComponent } from './products-page/products-detail/products-detail.component';
+import { CheckoutPageComponent } from './checkout-page/checkout-page.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +26,12 @@ import { FaqPageComponent } from './faq-page/faq-page.component';
     AboutUsComponent,
     ProductsPageComponent,
     SignupPageComponent,
-    FaqPageComponent
+    FaqPageComponent,
+    UserAccountPageComponent,
+    UserCartPageComponent,
+    ProductsListComponent,
+    ProductsDetailComponent,
+    CheckoutPageComponent
   ],
   imports: [
     BrowserModule,

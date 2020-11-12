@@ -11,8 +11,8 @@
           <input type="password" class="form-control width-adjust" id="passwd" placeholder="Enter Your Password">
         </div>
         <div class="col-sm-12">
-            <button type="submit" class="btn  btn-login btn-default btnblack">LOG IN</button>
-          <button type="submit" class="btn  btn-login btn-default">CANCEL</button>
+            <button type="submit" class="btn  btn-login btn-default btnblack" (click)="onLogIn()">LOG IN</button>
+          <button type="submit" class="btn  btn-login btn-default"(click)="onCancel()">CANCEL</button>
         </div>
         <div class="col-sm-12 noaccount">
           <a (click)="onSignUp()" class="txtblack;" style="cursor: pointer;"> Don't have an account yet? Sign up instead</a> 

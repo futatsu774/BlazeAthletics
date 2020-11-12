@@ -17,4 +17,14 @@ export class LoginPageComponent implements OnInit {
   {
     this.router.navigate(['sign-up']);
   }
+
+  onLogIn()
+  {
+    this.router.navigate(['MyAccount']);
+  }
+
+  onCancel()
+  {
+    this.router.navigate(['home']);
+  }
 }

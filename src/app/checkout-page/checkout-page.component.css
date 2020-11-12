@@ -1,0 +1,41 @@
+.home-body {
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  .width-adjust {
+  	width: 60%;
+  	float: right;
+  }
+
+  .align {
+width: 50%;
+margin-top: 5%;
+margin-bottom: 5%;
+  }
+
+  .btn-login {
+ margin-right: 20px;
+  }
+
+  .btn-size {
+  	margin-bottom: 20px;
+  	width: 50%;
+  }
+
+  .padding-fill {
+  	padding-bottom: 170px;
+  }
+
+  .weight-adjust {
+  	font-weight: 900px;
+  }
+
+  .padding-adjust {
+  	margin-top: 85px;
+  }
+
+  .padding-top {
+  	margin-top: 15px;
+  }

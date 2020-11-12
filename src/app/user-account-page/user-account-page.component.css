@@ -1,0 +1,23 @@
+.home-body {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+  }
+
+  .custom-collapse {
+	background-color: #fff; 
+	border-color: #fff;
+	text-align: left;
+	color: black;
+	font-size: 20px;
+  }
+
+  .custom-collapse:hover {  	
+	color: red;
+	border-color: #fff;
+	background-color: #fff; 
+  }
+
+  .center-text {
+  	text-align: center;
+  }

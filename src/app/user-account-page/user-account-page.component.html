@@ -1,0 +1,91 @@
+<h3 class="center-text">MY ACCOUNT</h3>
+
+<div class="navbar container-fluid home-body">
+  <a class="btn-block custom-collapse btn btn-info" data-toggle="collapse" (click)="myOrdersCollapsed = !myOrdersCollapsed">> MY ORDERS</a>
+  <hr>
+  <div id="demo" [class.collapse]="myOrdersCollapsed">
+    <div class=" row home-body container-fluid ">
+    	<h3>PENDING ORDERS</h3>
+    	<div class="col-sm-12">
+    		<h4> TO PAY</h4>
+    		<p> T-SHIRT</p>
+    		<p>SIZE - LARGE</p>
+        <P>COLOR BLACK</P>
+        <P>1 X PHP 300</P> 
+        <button type="submit" class="btn  btn-default ">Upload Receipt</button>
+     	</div>
+     	<div class="col-sm-12">
+     		<a href=""><p>TRACK YOUR ORDER</p></a>
+     		<a href=""><p>VIEW ORDER HISTORY </p> </a>
+     	</div>
+    </div>
+  </div>
+</div>
+
+
+<div class=" navbar container-fluid home-body">
+  <a class="btn btn-block btn-info custom-collapse" data-toggle="collapse" (click)="myAccountInfoCollapsed = !myAccountInfoCollapsed">> ACCOUNT INFORMATION</a>
+  <hr>
+  <div id="demo2" [class.collapse]="myAccountInfoCollapsed">
+    <div class=" row home-body container-fluid ">	
+      <form action="/action_page.php">  
+        <div class="form-group col-sm-6">
+            <label for="fname">Fist Name:</label>
+            <input type="text" class="form-control" id="fname" placeholder="First Name">
+        </div>
+          <div class="form-group col-sm-6">
+            <label for="mname">Middle Name:</label>
+            <input type="text" class="form-control" id="mname" placeholder="Middle Name">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="lname">Last Name:</label>
+            <input type="text" class="form-control" id="lname" placeholder="Last Name">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="suffix">Suffix (if applicable)</label>
+            <input type="text" class="form-control" id="suffix" placeholder="Suffix">
+        </div>
+          <div class="form-group col-sm-12">
+            <label for="adrs1">Address Line 1</label>
+            <input type="text" class="form-control" id="adrs1" placeholder="Building Number, Street">
+        </div>
+          <div class="form-group col-sm-12">
+            <label for="adrs2">Address Line 2 (optional)</label>
+            <input type="text" class="form-control" id="adrs2" placeholder="Building Number, Street">
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="brgy">Barangay:</label>
+            <input type="text" class="form-control" id="brgy" placeholder="Barangay">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="city">City:</label>
+            <input type="text" class="form-control" id="city" placeholder="City">
+        </div>
+          <div class="form-group col-sm-6">
+            <label for="prov">Region/Province:</label>
+            <input type="text" class="form-control" id="prov" placeholder="Region/Province">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="pcode">Postal Code</label>
+            <input type="text" class="form-control" id="pcode" placeholder="Postal Code">
+        </div>
+        <div class="form-group col-sm-12">
+            <label for="email">Email Address:</label>
+            <input type="password" class="form-control" id="email" placeholder="Email Address">
+        </div>
+        <div class="form-group col-sm-6">
+            <label for="crtpasswd">Create a Password:</label>
+            <input type="password" class="form-control" id="crtpasswd" placeholder="Password">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="confpasswd">Confirm Password:</label>
+            <input type="password" class="form-control" id="confpasswd" placeholder="Password">
+        </div>
+        <div class="col-sm-12 btnbtm">
+          <button type="submit" class="btn btn-default btnblack">Submit</button>
+            <button type="submit" class="btn btn-default ">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
