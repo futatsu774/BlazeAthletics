@@ -7,5 +7,14 @@
 
 navbar-inverse .navbar-nav>li>a {
     color: #191818;
-    /* font-family:  */
+    /* font-family: */
+}
+
+.glyphicon {
+    font-size: 25px;
+}
+
+.navbar-inverse {
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
