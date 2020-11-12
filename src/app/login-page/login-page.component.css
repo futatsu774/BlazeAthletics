@@ -22,9 +22,37 @@
  
  .btn-login  {
      margin-top: 5%;
-     margin-left: 20%;
      width: 110px;
+     margin-right: 20px;
  }
+ 
  .noaccount {
          margin-top: 5%;
  }
+ 
+ .width-adjust {
+      width: 60%;
+ }
+ 
+ .form-control {
+     margin-right: 10px;
+     align-items: center;
+     display: block;
+     width: 70%;
+     }
+ 
+ .margin-right {
+     padding-left: 50px;
+  }
+ 
+ .btnblack{
+     background-color: black;
+     color: white;
+ }
+ 
+ .txtblack {
+     color: black;
+ }
+ 
+ 
+ 

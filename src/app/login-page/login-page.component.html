@@ -1,31 +1,26 @@
 <div class="row signup-container">
-    <div class="col-sm-6 container-fluid ">	
-        <form action="/action_page.php">
 
-            <div class="form-group form-margin col-sm-12">
-                <label for="fname">Fist Name:</label>
-                <input type="text" class="form-control" id="fname">
-            </div>
-
-            <div class="form-group col-sm-12">
-                <label for="fname">Fist Name:</label>
-                <input type="text" class="form-control" id="fname">
-            </div>
-
-            <div class="col-sm-12">
-                <button type="submit" class="btn  btn-login btn-default ">Submit</button>
-                <button type="submit" class="btn  btn-login btn-default">Submit</button>
-            </div>
-
-            <div class="col-sm-12 noaccount">
-                <a (click)="onSignUp()" style="cursor: pointer;"> Don't have an account? </a>
-            </div>
-
-        </form>
-    </div>
-
-    <div class="col-sm-6"> 
-        <img src="assets/sample.jpg" style="width:60%">
-    </div>
-
-</div>    
+    <div class="col-sm-6 container-fluid margin-left ">	
+      <form action="/action_page.php">	
+        <div class="form-group form-margin col-sm-12">
+          <label for="uname">Username:</label>
+          <input type="text" class="form-control width-adjust" id="uname" placeholder="Enter Your Username">
+        </div>
+        <div class="form-group col-sm-12">
+          <label for="passwd">Password:</label>
+          <input type="password" class="form-control width-adjust" id="passwd" placeholder="Enter Your Password">
+        </div>
+        <div class="col-sm-12">
+            <button type="submit" class="btn  btn-login btn-default btnblack">LOG IN</button>
+          <button type="submit" class="btn  btn-login btn-default">CANCEL</button>
+        </div>
+        <div class="col-sm-12 noaccount">
+          <a (click)="onSignUp()" class="txtblack;" style="cursor: pointer;"> Don't have an account yet? Sign up instead</a> 
+        </div>
+      </form>
+  </div>
+  
+  <div class="col-sm-6"> 
+      <img src="assets/sample.jpg" style="width:60%">
+  </div>  
+</div>
