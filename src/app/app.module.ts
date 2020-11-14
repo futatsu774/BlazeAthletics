@@ -16,6 +16,20 @@ import { UserCartPageComponent } from './user-cart-page/user-cart-page.component
 import { ProductsListComponent } from './products-page/products-list/products-list.component';
 import { ProductsDetailComponent } from './products-page/products-detail/products-detail.component';
 import { CheckoutPageComponent } from './checkout-page/checkout-page.component';
+import { AdminLoginComponent } from './admin-login/adminLogin';
+import { DashboardComponent } from './dashboard-page/dashboardPage';
+import { EditAccPageComponent } from './edit-account-page/editAccPage';
+import { EditProductComponent } from './edit-product-page/editProductPage';
+import { InventoryComponent } from './inventory-page/inventoryPage';
+import { ManageAdminComponent } from './manage-admin-page/manageAdminPage';
+import { NewAcctComponent } from './new-account-page/newAccPage';
+import { NewProductComponent } from './new-product-page/newProductPage';
+import { OrderCancelledComponent } from './orderdtl-cancel-page/orderDtl_Cancelled';
+import { OrderForDeliveryComponent } from './orderdtl-delivery-page/orderDtl_ForDelivery';
+import { OrderOngoingComponent } from './orderdtl-ongoing-page/orderDtl_OnGoing';
+import { OrderPendingComponent } from './orderdtl-pending-page/orderDtl_Pending';
+import { OrderToPayComponent } from './orderdtl-topay-page/orderDtl_ToPay';
+import { RegisteredAccountsComponent } from './registered-accounts-page/registeredAcc';
 
 @NgModule({
   declarations: [
@@ -31,7 +45,22 @@ import { CheckoutPageComponent } from './checkout-page/checkout-page.component';
     UserCartPageComponent,
     ProductsListComponent,
     ProductsDetailComponent,
-    CheckoutPageComponent
+    CheckoutPageComponent,
+    AdminLoginComponent,
+    DashboardComponent,
+    EditAccPageComponent,
+    EditProductComponent,
+    InventoryComponent,
+    ManageAdminComponent,
+    NewAcctComponent,
+    NewProductComponent,
+    OrderCancelledComponent,
+    OrderForDeliveryComponent,
+    OrderOngoingComponent,
+    OrderPendingComponent,
+    OrderToPayComponent,
+    RegisteredAccountsComponent
+
   ],
   imports: [
     BrowserModule,

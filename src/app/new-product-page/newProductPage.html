@@ -1,0 +1,99 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img src="assets/LOGO.png" width="75" height="25">
+      </a>
+    </div>
+    <div class="">
+      <ul class="nav navbar-nav ">
+        <li class=""><a href="dashboard">HOME</a></li>
+       <li><a href="ordertopay">ORDER DETAILS</a></li>
+       <li><a href="inventory">INVENTORY</a></li>
+       <li><a href="registeredaccounts">REGISTERED ACCOUNTS</a></li>
+       <li><a href="manageadmin">MANAGE ADMINS</a></li>
+           <li><a href="adminlogin">LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<h2>NEW PRODUCT</h2>
+<div class="row container-fluid home-body">
+  <form action="/action_page.php">
+   
+      <div class="col-sm-4">
+        <h4>BASIC INFORMATION</h4>
+        <div class="form-group" >
+          <label for="pname" >Product Name:</label>
+          <input type="text" class="form-control adjust" id="pname" placeholder="">
+        </div>
+        <div class="form-group" >
+          <label for="desc" >Description:</label>
+          <textarea class="form-control adjust" id="desc"> </textarea> 
+        </div>
+        <div class="form-group" >
+          <div class="input-group-prepend">
+            <label for="desc" >Category:</label>
+            <input type="text" class="form-control" placeholder="">
+            <button class="btn" type="button" id="">Add</button>
+          </div>
+        </div>        
+      </div>
+
+      <div class="col-sm-4">
+        <h4>SALES INFORMATION</h4>
+        <div class="form-group col-sm-12" >
+          <div class="input-group-prepend">
+            <label for="desc" >Color Variations:</label>
+            <input type="text" class="form-control" placeholder="">
+            <button class="btn" type="button" id="">Add</button>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <label>SIZES AND STOCK</label>
+        </div>
+        <div class="col-sm-6">
+          <input type="text" class="form-control adjust" id="payment" placeholder="Size">
+        </div>
+        <div class="col-sm-6">
+          <input type="text" class="form-control adjust" id="payment" placeholder="Stock">
+        </div>          
+        <div class="col-sm-6">
+          <input type="text" class="form-control adjust" placeholder="Size" >
+        </div>
+        <div class="col-sm-6">
+           <input type="text" class="form-control adjust" placeholder="Stock">
+        </div>
+        <div class="col-sm-6">
+          <input type="text" class="form-control adjust" placeholder="Size">
+        </div>
+        <div class="col-sm-6">
+          <input type="text" class="form-control adjust" placeholder="Stock">
+        </div>
+        <div class="col-sm-6">
+          <input type="text" class="form-control adjust" placeholder="Size">
+        </div>
+        <div class="col-sm-6">
+          <input type="text" class="form-control adjust" placeholder="Stock">
+        </div>
+        <div class="form-group col-sm-12" >
+          <label for="price" >Price:</label>
+          <input type="text" class="form-control adjust" id="price" placeholder="">
+        </div>  
+      </div>
+
+      <div class="col-sm-4">
+        <h4>MEDIA MANAGEMENT</h4>      
+        <div class="form-group col-sm-12 " >
+          <label> Images</label>
+        </div>
+        <div class="col-sm-12 btn">
+          <input type="file">
+        </div>
+        </div>
+
+        <div class="col-sm-12 btn">
+          <input type="submit" class="btn" value="ADD PRODUCT">
+        </div>
+        </form>

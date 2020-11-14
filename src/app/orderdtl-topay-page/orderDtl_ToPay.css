@@ -1,0 +1,30 @@
+p {
+	margin-bottom: 0px;
+}
+h3 {
+	text-align: center;
+}
+.container, .sideorder {
+	text-align: left;
+}
+
+ .home-body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+.container {
+	background-color: #f0f0f0;
+	padding: 10px;
+}
+
+.details {
+	padding-bottom: 10px;
+}
+
+.sidenav{
+	padding-top: 70px;
+}
+.sidenav p {
+	padding-bottom: 10px;
+}

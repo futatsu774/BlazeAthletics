@@ -1,0 +1,22 @@
+h2 {
+  text-align: center;
+}
+
+ .home-body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+ .panel-body {
+padding: 0px;
+
+}
+
+.col-sm-6 {
+  border-color: black;
+  padding-bottom: 6px;
+}
+
+.form-group {
+  padding-top: 10px;
+}

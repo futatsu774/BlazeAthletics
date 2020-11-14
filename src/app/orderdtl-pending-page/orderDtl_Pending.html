@@ -1,0 +1,93 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img src="assets/LOGO.png" width="75" height="25">
+      </a>
+    </div>
+    <div class="">
+		<ul class="nav navbar-nav ">
+			<li class=""><a href="dashboard">HOME</a></li>
+		 <li><a href="ordertopay">ORDER DETAILS</a></li>
+		 <li><a href="inventory">INVENTORY</a></li>
+		 <li><a href="registeredaccounts">REGISTERED ACCOUNTS</a></li>
+		 <li><a href="manageadmin">MANAGE ADMINS</a></li>
+			 <li><a href="adminlogin">LOGOUT</a></li>
+		</ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center sideorder home-body">   
+<h3>ORDER DETAILS</h3>
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+		<p><a href="ordertopay">To Pay Orders</a></p>
+		<p><a href="orderpending">Pending Orders</a></p>
+		<p><a href="orderfordelivery">For Delivery Orders</a></p>
+		<p><a href="orderongoing">On Going Orders</a></p>
+		<p><a href="ordercancelled">Cancelled Orders</a></p>
+		<p><a href="orderhistory">Order History</a></p>
+    </div>
+
+    <div class="col-sm-7 text-left"> 
+		<h4>PENDING ORDERS</h4>
+		  <table class="table table-hover">
+		    <thead>
+		      <tr>
+		        <th>Name</th>
+		        <th>Order Time</th>
+		        <th>Order Id</th>
+		        <th>Status</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>Ka Erning</td>
+		        <td>8/26/20 10:30 pm</td>
+		        <td>201113652498 </td>
+		        <td>Paid</td>
+		        <td><button class="btn" data-toggle="collapse" data-target="demo">Update Status</button></td>
+		      </tr>
+		      <tr>
+		        <td>Juan Carlos</td>
+		        <td>8/29/20 10:30  pm</td>
+		        <td>201155652498 </td>
+		        <td>Paid</td>
+		        <td><button class="btn" data-toggle="collapse" data-target="demo">Update Status</button></td>
+		      </tr>
+		    </tbody>
+		  </table>
+		</div>
+		<div class=" container col-sm-3 collapse" id="demo">
+			<div class="col-sm-12 details">
+			   <p>Juan Carlos</p>
+			   <p>juancarlos@gmail.com</p>
+			</div>
+			  <div class="col-sm-12 details">
+			   <p>Order Summary</p>
+			   <p>TSHIRT</p>
+			  <p>SIZE - LARGE</p>
+			  <P>COLOR BLACK</P>
+			  <P>1 X PHP 300</P> 
+			</div>
+		   <div class="col-sm-12 details">
+				<p>Address</p>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	
+			</div>
+
+			<div class="col-sm-12 details">
+	     		<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">  
+			</div>
+			<div class="col-sm-12">
+				<div class="col-sm-6">
+					<button class="btn btn-success">Confirm</button>
+				</div>
+				<div class="col-sm-6 ">
+					<button class="btn btn-danger">Cancel</button>
+				</div>
+			</div>
+	</div></div>
+
+    	

@@ -1,0 +1,32 @@
+ h3 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .home-body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    font-size: 20px;
+  }
+
+  .glyphicon, svg {
+  	text-align: center;
+  	font-size: 70px;
+  	color: black;
+  	width: 70px;
+  }
+
+  .card-body {
+  	background-color: #f0f0f0;
+  	padding: 20px;
+  	text-align: center;
+  	border-radius: 20px;
+  	color: black;
+  	margin-bottom: 30px;
+  	margin-left: 30px;
+  }
+
+  .card-body:hover {
+  	background-color: #999;
+  }
